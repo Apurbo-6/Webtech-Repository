@@ -7,35 +7,33 @@
 <body>
 
 <p> <span style="color: Red"> *</span>  - Denotes Require Information </p>
-<p> <b>> 1 Donation </b>    > 2 Confirmation     > 3 Thank You </p>
+<p> <b>> 1 Donation </b>  &nbsp;  > 2 Confirmation  &nbsp;  > 3 Thank You </p>
 <h1 style="color:red">  Donor Information </h1>
 
 <form>
 
-<label style="text-align: center;">First Name <span style="color: Red"> *</span> </label>
+<label style="text-align: center;"><b>First Name</b> <span style="color: Red"> *</span> </label>
 <input type="text"> <br><br>
 
 
-<label style="text-align: center;">Last Name <span style="color: Red"> *</span> </label>
-<input type="text" <br><br><br>
-
-<label style="text-align: center;">First Name <span style="color: Red"> *</span> </label>
-<input type="text" <br><br><br>
-
-<label style="text-align: center;">Company</label>
-<input type="text" <br><br><br>
-
-<label style="text-align: center;">Address 1 <span style="color: Red"> *</span> </label>
-<input type="text" <br><br><br>
-
-<label style="text-align: center;">Address 2 </label>
-<input type="text" <br><br><br>
-
-<label style="text-align: center;">City <span style="color: Red"> *</span> </label>
+<label style="text-align: center;"><b>Last Name</b> <span style="color: Red"> *</span> </label>
 <input type="text" <br><br><br>
 
 
-<label style="text-align: center;">State <span style="color: Red"> *</span> </label>
+<label style="text-align: center;"><b>Company</b></label>
+<input type="text" <br><br><br>
+
+<label style="text-align: center;"><b>Address 1</b> <span style="color: Red"> *</span> </label>
+<input type="text" <br><br><br>
+
+<label style="text-align: center;"><b>Address 2 </b></label>
+<input type="text" <br><br><br>
+
+<label style="text-align: center;"><b>City </b><span style="color: Red"> *</span> </label>
+<input type="text" <br><br><br>
+
+
+<label style="text-align: center;"><b>State </b><span style="color: Red"> *</span> </label>
 <select>
 	<option value="dhaka">Dhaka </option>
 	<option value="mymenshing">Mymenshing </option>
@@ -46,10 +44,10 @@
 
 
 
-<label style="text-align: center;">Zip code <span style="color: Red"> *</span> </label>
+<label style="text-align: center;"><b>Zip code</b> <span style="color: Red"> *</span> </label>
 <input type="text" <br><br><br>
 
-<label style="text-align: center;">Country <span style="color: Red"> *</span> </label>
+<label style="text-align: center;"><b>Country </b><span style="color: Red"> *</span> </label>
 <select>
 	<option value="bangladesh">Bangladesh </option>
 	<option value="canada">Canada </option>
@@ -57,21 +55,21 @@
 	<option value="india">India </option>
 </select><br><br>
 
-<label style="text-align: center;">Phone </label>
+<label style="text-align: center;"><b>Phone</b> </label>
 <input type="text" <br><br><br>
 
-<label style="text-align: center;">Fax </label>
+<label style="text-align: center;"><b>Fax </b></label>
 <input type="text" <br><br><br>
 
 
-<label style="text-align: center;">Email <span style="color: Red"> *</span> </label>
+<label style="text-align: center;"><b>Email</b> <span style="color: Red"> *</span> </label>
 <input type="text" <br><br>
 
 
 
-<label style="text-align: center;">Donation Amount <span style="color: Red"> *</span> </label>
+<label style="text-align: center;"><b>Donation Amount</b> <span style="color: Red"> *</span> </label>
 
-  <input type="radio" id="none" name="Donation Amount" value="0">
+  <input type="radio"  name="Donation Amount" value="0">
   <label for="none">None</label>
   <input type="radio" id="$50" name="Donation Amount" value="50">
   <label for="$50">$50</label>
@@ -82,7 +80,66 @@
   <input type="radio" id="$250" name="Donation Amount" value="250">
   <label for="$250">$250</label><br>
 
+<h1 style="color:red"> Honorariam and Memorial Donation Information </h1>
+
+	<label style="text-align: center;"><b>I would like to make this donation</b></label>
+	<input type="radio" id="to honor" name="this donation" value="0">
+	<label for="none">to honor</label>
+	<input type="radio" id="to memory" name="this donation" value="50">
+	<label for="$50">To memory</label><br>
+
+
+	<label style="text-align: center;"><b>Name</b> <span style="color: Red"> *</span> </label>
+	<input type="text"> <br><br>
+
+
+	<label style="text-align: center;"><b>Acknowlaedge donation to</b> <span style="color: Red"> *</span> </label>
+	<input type="text" <br><br><br>
+
+	<label style="text-align: center;"><b>Address</b> <span style="color: Red"> *</span> </label>
+	<input type="text"> <br><br>
+
+
+	<label style="text-align: center;"><b>City</b> <span style="color: Red"> *</span> </label>
+	<input type="text" <br><br><br>
+
+
+	<label style="text-align: center;"><b>State </b><span style="color: Red"> *</span> </label>
+	<select>
+		<option value="dhaka">Dhaka </option>
+		<option value="mymenshing">Mymenshing </option>
+		<option value="khulna">Khulna </option>
+		<option value="rajhsahi">Rajhsahi </option>
+	</select><br><br>
+
+
+	<label style="text-align: center;"><b>Zip</b> <span style="color: Red"> *</span> </label>
+	<input type="text" <br><br><br>
+
+
+<h1 style="color:red">Additional Information </h1>
+<div>Please enter your name,company or organization as you would like it to appear in our publication :</div>
+	<label style="text-align: center;"><b>Name</b> <span style="color: Red"> *</span> </label>
+	<input type="text"> <br><br>
+
+	<input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+  <label for="checkbox1"> I would like my gift to remain anonymous.</label><br>
+  <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+  <label for="checkbox2"> My employer offers a matching gift programe. I will mail the matching form. </label><br>
+  <input type="checkbox" id="checkbox3" name="checkbox3" value="checkbox3">
+  <label for="checkbox3"> Please save the cost by acknowledging this gift by not mailing thank you letter.</label><br><br>
+
+
+  <label style="text-align: center;"><b>Comment</b> <span style="color: Red"> *</span> </label>
+	<textarea name="comment" >Enter text here...</textarea>
+
 </form>
+
+
+
+
+
+
 
 
 </body>
